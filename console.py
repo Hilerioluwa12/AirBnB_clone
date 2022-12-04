@@ -15,8 +15,8 @@ from models.amenity import Amenity
 from models.place import Place
 
 classes = {'BaseModel': BaseModel, 'User': User,
-           'Amenity': Amenity, 'City': City, 'State': State,
-           'Place': Place, 'Review': Review}
+                   'Amenity': Amenity, 'City': City, 'State': State,
+                   'Place': Place, 'Review': Review}
 
 
 class HBNBCommand(cmd.Cmd):
